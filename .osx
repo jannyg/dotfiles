@@ -24,6 +24,9 @@ sudo pmset -a standbydelay 86400
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Play feedback when volume is changed: false
+defaults write -g "com.apple.sound.beep.feedback" -int 0
+
 # Menu bar: disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
