@@ -44,6 +44,7 @@ install tree
 install webkit2png
 install zopfli
 install p7zip
+install cheat
 
 tap homebrew/versions
 install lua52
