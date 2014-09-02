@@ -50,6 +50,7 @@ tap homebrew/versions
 install lua52
 
 install tmux
+install python
 
 # Remove outdated versions from the cellar
 cleanup
