@@ -49,5 +49,7 @@ install cheat
 tap homebrew/versions
 install lua52
 
+install tmux
+
 # Remove outdated versions from the cellar
 cleanup
