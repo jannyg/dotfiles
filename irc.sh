@@ -6,7 +6,7 @@ function irc
   cd $BASE
  
   tmux start-server
-  tmux new-session -d -s irc -n vim
+  tmux new-session -d -s irc -n irc
   #tmux new-window -t irc:1 -n weechat
   #tmux new-window -t irc:2 -n glances
   tmux split-window -h -p 50 -t 0 glances
