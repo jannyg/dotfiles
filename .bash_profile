@@ -43,3 +43,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #ssh-add
 
 export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}\007"'
+
+# Fix Python path
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages/
