@@ -7,14 +7,14 @@ function installcask() {
 }
 
 #installcask dropbox
-installcask google-chrome
-installcask google-chrome-canary
-installcask imagealpha
-installcask imageoptim
+#installcask google-chrome
+#installcask google-chrome-canary
+#installcask imagealpha
+#installcask imageoptim
 installcask iterm2
-installcask macvim
-installcask miro-video-converter
-installcask sublime-text
+#installcask macvim
+#installcask miro-video-converter
+#installcask sublime-text
 installcask the-unarchiver
 #installcask tor-browser
 #installcask transmission
@@ -24,7 +24,7 @@ installcask vagrant
 installcask vlc
 installcask spotify
 installcask lastpass-universal
-installcask google-drive
+#installcask google-drive
 installcask twitter
 installcask caffeine
 installcask komodo-edit

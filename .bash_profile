@@ -46,4 +46,4 @@ export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}\007"'
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
 
 # Fix Python path
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages/
+#export PYTHONPATH=/usr/local/lib/python2.7/site-packages/
