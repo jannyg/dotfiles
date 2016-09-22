@@ -16,6 +16,8 @@ install bash
 install git
 install lynx
 install p7zip
+install httpie
+install mackup
 
 # Remove outdated versions from the cellar
 cleanup
