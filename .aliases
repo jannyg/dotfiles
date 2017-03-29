@@ -2,6 +2,5 @@
 
 # Docker aliases
 
-alias dtemp="docker run --rm -it $1 /bin/sh"
 alias dtail="docker logs --tail=50 --follow"
 alias dexec="docker exec --it"
