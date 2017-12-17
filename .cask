@@ -31,3 +31,4 @@ installcask komodo-edit
 installcask moom
 installcask sourcetree
 installcask royal-tsx
+installcask spectacle
