@@ -19,6 +19,7 @@ install p7zip
 install httpie
 install mackup
 install slackcat
+install kubectx
 
 # Remove outdated versions from the cellar
 cleanup
