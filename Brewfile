@@ -20,6 +20,8 @@ install httpie
 install mackup
 install slackcat
 install kubectx
+install wireshark
+install vim
 
 # Remove outdated versions from the cellar
 cleanup

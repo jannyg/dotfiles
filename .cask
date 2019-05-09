@@ -28,14 +28,10 @@ installcask lastpass-universal
 #installcask google-drive
 #installcask twitter
 installcask amphetamine
-installcask komodo-edit
+#installcask komodo-edit
 installcask sourcetree
-installcask royal-tsx
+#installcask royal-tsx
 installcask spectacle
 installcask rocket-chat
 installcask slack
-install mas
-install keybase
-install wireshark
-install speedtest-cli
-install vim
+installcask keybase
