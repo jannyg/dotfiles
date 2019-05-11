@@ -102,6 +102,9 @@ brew install httpie
 brew install kubectx
 brew install wireshark
 brew install vim
+brew install htop
+brew install asciinema
+brew install bat
 
 # Remove outdated versions from the cellar.
 brew cleanup
