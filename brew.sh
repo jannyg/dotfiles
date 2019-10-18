@@ -105,6 +105,7 @@ brew install vim
 brew install htop
 brew install asciinema
 brew install bat
+brew install hyperfine
 
 # Remove outdated versions from the cellar.
 brew cleanup
