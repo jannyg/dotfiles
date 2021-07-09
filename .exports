@@ -45,4 +45,10 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+<<<<<<< HEAD
 >>>>>>> 5368015b53467949c36f1e386582ac066b0d0ae6
+=======
+
+# Hide the “default interactive shell is now zsh” warning on macOS.
+export BASH_SILENCE_DEPRECATION_WARNING=1;
+>>>>>>> c886e139233320e29fd882960ba3dd388d57afd7
