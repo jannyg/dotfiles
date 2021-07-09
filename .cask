@@ -15,7 +15,7 @@ installcask spotify
 installcask lastpass-universal
 installcask amphetamine
 installcask spectacle
-installcask rocket-chat
 installcask slack
 installcask keybase
 installcask ngrok
+installcask pycharm
