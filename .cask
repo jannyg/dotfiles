@@ -18,4 +18,4 @@ installcask spectacle
 installcask slack
 installcask keybase
 installcask ngrok
-installcask pycharm
+installcask pycharm-ce
