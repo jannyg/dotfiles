@@ -106,6 +106,7 @@ brew install htop
 brew install asciinema
 brew install bat
 brew install hyperfine
+brew install tmate
 
 # Remove outdated versions from the cellar.
 brew cleanup
