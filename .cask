@@ -16,6 +16,5 @@ installcask lastpass-universal
 installcask amphetamine
 installcask spectacle
 installcask slack
-installcask keybase
 installcask ngrok
 installcask pycharm-ce
