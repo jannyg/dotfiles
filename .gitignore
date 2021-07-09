@@ -44,4 +44,15 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# PyCharm
+.idea
+
+# vscode
+.vscode
+
 # End of https://www.gitignore.io/api/osx

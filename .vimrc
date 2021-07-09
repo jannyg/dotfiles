@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let mapleader = " "
 
 " enable syntax highlighting
@@ -190,4 +189,3 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
->>>>>>> 5368015b53467949c36f1e386582ac066b0d0ae6

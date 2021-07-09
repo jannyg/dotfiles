@@ -3,7 +3,6 @@
 # Make vim the default editor.
 export EDITOR='vim';
 
-<<<<<<< HEAD
 # Prefer US English and use UTF-8
 #export LANG="en_US"
 #export LC_ALL="en_US.UTF-8"
@@ -14,7 +13,6 @@ export NODE_REPL_HISTORY=~/.node_history;
 export NODE_REPL_HISTORY_SIZE='32768';
 # Use sloppy mode by default, matching web browsers.
 export NODE_REPL_MODE='sloppy';
->>>>>>> 5368015b53467949c36f1e386582ac066b0d0ae6
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
@@ -29,13 +27,12 @@ export HISTCONTROL='ignoreboth';
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
-<<<<<<< HEAD
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Fix for title in iterm/terminal not resetting after ssh sessions
 export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
-=======
+
 # Highlight section titles in manual pages.
 export LESS_TERMCAP_md="${yellow}";
 
@@ -45,10 +42,6 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
-<<<<<<< HEAD
->>>>>>> 5368015b53467949c36f1e386582ac066b0d0ae6
-=======
 
 # Hide the “default interactive shell is now zsh” warning on macOS.
 export BASH_SILENCE_DEPRECATION_WARNING=1;
->>>>>>> c886e139233320e29fd882960ba3dd388d57afd7
