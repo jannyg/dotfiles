@@ -74,6 +74,7 @@ brew install bat
 brew install hyperfine
 brew install tmate
 brew install ipcalc
+brew install gh
 
 # Remove outdated versions from the cellar.
 brew cleanup
