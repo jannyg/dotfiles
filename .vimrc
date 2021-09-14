@@ -82,7 +82,6 @@ let mapleader = " "
 "
 "   " make line number brighter
 "   hi LineNr ctermfg=240 guifg=#585858
-=======
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
