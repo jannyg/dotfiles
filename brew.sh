@@ -76,6 +76,7 @@ brew install hyperfine
 brew install tmate
 brew install ipcalc
 brew install gh
+brew install openshift-cli
 
 # Remove outdated versions from the cellar.
 brew cleanup
