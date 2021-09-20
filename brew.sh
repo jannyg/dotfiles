@@ -77,6 +77,7 @@ brew install tmate
 brew install ipcalc
 brew install gh
 brew install openshift-cli
+brew install adr-tools
 
 # Remove outdated versions from the cellar.
 brew cleanup
