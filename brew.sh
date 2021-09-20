@@ -78,6 +78,7 @@ brew install ipcalc
 brew install gh
 brew install openshift-cli
 brew install adr-tools
+brew install gron
 
 # Remove outdated versions from the cellar.
 brew cleanup
