@@ -78,8 +78,9 @@ brew install ipcalc
 brew install gh
 brew install openshift-cli
 brew install adr-tools
-brew install gron@
+brew install gron
 brew install tmux
+brew install visual-studio-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
