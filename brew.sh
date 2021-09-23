@@ -81,6 +81,7 @@ brew install adr-tools
 brew install gron
 brew install tmux
 brew install visual-studio-code
+brew install jq
 
 # Remove outdated versions from the cellar.
 brew cleanup
