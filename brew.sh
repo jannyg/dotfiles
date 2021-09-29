@@ -84,5 +84,10 @@ brew install visual-studio-code
 brew install jq
 brew install awscli
 
+# Container related
+brew install docker
+brew install minikube
+brew install hyperkit
+
 # Remove outdated versions from the cellar.
 brew cleanup
