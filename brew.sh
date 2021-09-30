@@ -91,6 +91,5 @@ brew install minikube
 brew install hyperkit
 brew install stern
 
-
 # Remove outdated versions from the cellar.
 brew cleanup
