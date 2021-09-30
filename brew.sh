@@ -90,6 +90,8 @@ brew install docker
 brew install minikube
 brew install hyperkit
 brew install stern
+brew install fx
+brew install yh
 
 # Remove outdated versions from the cellar.
 brew cleanup
