@@ -83,6 +83,7 @@ brew install tmux
 brew install visual-studio-code
 brew install jq
 brew install awscli
+brew install vault
 
 # Container related
 brew install docker
