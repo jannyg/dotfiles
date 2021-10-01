@@ -84,6 +84,7 @@ brew install visual-studio-code
 brew install jq
 brew install awscli
 brew install vault
+brew install fzf
 
 # Container related
 brew install docker
