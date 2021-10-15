@@ -85,6 +85,9 @@ brew install jq
 brew install awscli
 brew install vault
 brew install fzf
+brew install netnewswire
+brew install kap
+brew install cfn-lint
 
 # Container related
 brew install docker
