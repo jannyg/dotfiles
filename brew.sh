@@ -88,6 +88,7 @@ brew install fzf
 brew install netnewswire
 brew install kap
 brew install cfn-lint
+brew install azure-cli
 
 # Container related
 brew install docker
