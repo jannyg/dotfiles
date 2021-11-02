@@ -89,6 +89,7 @@ brew install netnewswire
 brew install kap
 brew install cfn-lint
 brew install azure-cli
+brew install mosh
 
 # Container related
 brew install docker
