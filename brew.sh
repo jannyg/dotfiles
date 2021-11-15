@@ -90,6 +90,7 @@ brew install kap
 brew install cfn-lint
 brew install azure-cli
 brew install mosh
+brew install dtsp
 
 # Container related
 brew install docker
