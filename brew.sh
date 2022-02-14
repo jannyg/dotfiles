@@ -90,7 +90,8 @@ brew install cfn-lint
 brew install azure-cli
 brew install mosh
 brew install dtsp
-brew install cloudflared
+brew install cloudflare/cloudflare/cloudflared
+brew install act
 
 # Container related
 brew install docker
