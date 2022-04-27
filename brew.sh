@@ -101,5 +101,8 @@ brew install stern
 brew install fx
 brew install yh
 
+# Cloud related
+brew install tflint
+
 # Remove outdated versions from the cellar.
 brew cleanup
