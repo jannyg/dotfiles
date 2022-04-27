@@ -159,3 +159,6 @@ alias cdf='cd `osascript -e "tell application \"Finder\" to if window 1 exists t
 
 # Use fxz for history
 alias history="history|fzf"
+
+# terraform
+alias tf="terraform"
