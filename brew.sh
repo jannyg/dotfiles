@@ -40,7 +40,7 @@ brew install gnupg
 brew install gpg2
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install neovim 
 brew install grep
 brew install openssh
 brew install screen
@@ -67,7 +67,7 @@ brew install vbindiff
 brew install httpie
 brew install kubectx
 brew install wireshark
-brew install vim
+brew install neovim
 brew install htop
 brew install asciinema
 brew install bat
@@ -89,7 +89,6 @@ brew install kap
 brew install cfn-lint
 brew install azure-cli
 brew install mosh
-brew install dtsp
 brew install cloudflared
 brew install act
 
