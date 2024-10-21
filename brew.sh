@@ -67,7 +67,6 @@ brew install vbindiff
 brew install httpie
 brew install kubectx
 brew install wireshark
-brew install neovim
 brew install htop
 brew install asciinema
 brew install bat
@@ -102,6 +101,10 @@ brew install yh
 
 # Cloud related
 brew install tflint
+
+# NeoVIM
+brew install neovim
+brew install luarocks
 
 # Remove outdated versions from the cellar.
 brew cleanup
