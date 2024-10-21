@@ -105,6 +105,7 @@ brew install tflint
 # NeoVIM
 brew install neovim
 brew install luarocks
+brew install ripgrep
 
 # Remove outdated versions from the cellar.
 brew cleanup
