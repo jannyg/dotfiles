@@ -4,7 +4,6 @@
 
 alias dtail="docker logs --tail=50 --follow"
 alias dexec="docker exec --it"
-=======
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
