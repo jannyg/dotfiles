@@ -162,3 +162,9 @@ alias history="history|fzf"
 
 # terraform
 alias tf="terraform"
+# neovim - Normal usage
+alias n="nvim $1"
+
+# neovim - For muscle memory
+alias vi=nvim
+alias vim=nvim
