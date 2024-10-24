@@ -90,6 +90,7 @@ brew install azure-cli
 brew install mosh
 brew install cloudflared
 brew install act
+brew install tmuxinator
 
 # Container related
 brew install docker
