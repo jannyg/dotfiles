@@ -55,4 +55,6 @@ Temporary Items
 # vscode
 .vscode
 
+# Ignore nvim lazy lock
+nvim/lazy-lock.json
 # End of https://www.gitignore.io/api/osx
