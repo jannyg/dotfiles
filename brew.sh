@@ -102,6 +102,7 @@ brew install yh
 
 # Cloud related
 brew install tflint
+brew install repoman
 
 # NeoVIM
 brew install neovim
