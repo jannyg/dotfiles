@@ -92,6 +92,7 @@ brew install cloudflared
 brew install act
 brew install tmuxinator
 brew install bruno
+brew install difftastic
 
 # Container related
 brew install docker
