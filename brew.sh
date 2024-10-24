@@ -32,7 +32,7 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
-# Install `wget` 
+# Install `wget`
 brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
@@ -40,7 +40,7 @@ brew install gnupg
 brew install gpg2
 
 # Install more recent versions of some macOS tools.
-brew install neovim 
+brew install neovim
 brew install grep
 brew install openssh
 brew install screen
@@ -91,6 +91,7 @@ brew install mosh
 brew install cloudflared
 brew install act
 brew install tmuxinator
+brew install bruno
 
 # Container related
 brew install docker
