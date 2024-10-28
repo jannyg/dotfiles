@@ -93,6 +93,7 @@ brew install act
 brew install tmuxinator
 brew install bruno
 brew install difftastic
+brew intall anki
 
 # Container related
 brew install docker
