@@ -81,7 +81,6 @@ brew install tmux
 brew install visual-studio-code
 brew install jq
 brew install awscli
-brew install vault
 brew install fzf
 brew install netnewswire
 brew install kap
@@ -105,6 +104,9 @@ brew install stern
 brew install fx
 brew install yh
 
+#  Developer
+brew install node
+
 # Cloud related
 brew install tflint
 brew install repoman
@@ -113,6 +115,10 @@ brew install repoman
 brew install neovim
 brew install luarocks
 brew install ripgrep
+
+# Vault
+brew tap hashicorp/tap
+brew install hashicorp/tap/vault
 
 # Remove outdated versions from the cellar.
 brew cleanup
