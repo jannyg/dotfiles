@@ -61,6 +61,7 @@ brew install rename
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
+brew install watch
 
 # Tools
 
