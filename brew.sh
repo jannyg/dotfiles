@@ -81,6 +81,7 @@ brew install gron
 brew install tmux
 brew install visual-studio-code
 brew install jq
+brew install ijq
 brew install awscli
 brew install fzf
 brew install netnewswire
