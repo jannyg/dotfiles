@@ -108,6 +108,8 @@ brew install yh
 
 #  Developer
 brew install node
+brew install yarn
+brew install pnpm
 
 # Cloud related
 brew install tflint
