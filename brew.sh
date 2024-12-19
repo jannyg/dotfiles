@@ -110,6 +110,8 @@ brew install yh
 brew install node
 brew install yarn
 brew install pnpm
+brew install prettier
+brew install nvm
 
 # Cloud related
 brew install tflint
