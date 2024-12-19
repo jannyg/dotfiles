@@ -112,6 +112,7 @@ brew install yarn
 brew install pnpm
 brew install prettier
 brew install nvm
+brew install serverless
 
 # Cloud related
 brew install tflint
