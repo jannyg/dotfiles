@@ -83,6 +83,7 @@ brew install visual-studio-code
 brew install jq
 brew install ijq
 brew install awscli
+brew install amazon-q
 brew install fzf
 brew install netnewswire
 brew install kap
