@@ -25,3 +25,4 @@ o.inccommand = "split" -- When nonempty, shows the effects of :substitute, :smag
 o.splitright = true
 o.splitbelow = true -- When on, splitting a window will put the new window below the current one
 o.termguicolors = true
+o.conceallevel = 2 -- Required for Obsidian.nvim UI features (0: disabled, 1: one char, 2: hidden unless has custom replacement char)
