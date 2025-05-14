@@ -30,10 +30,10 @@ return {
         name = "personal",
         path = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/jannyg-notes",
       },
-			{
-				name = "blog",
-				path = "~/git/quartz",
-			}
+      {
+        name = "blog",
+        path = "~/git/quartz",
+      }
     },
 
     -- Define a default directory for new notes
