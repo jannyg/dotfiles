@@ -114,6 +114,8 @@ brew install pnpm
 brew install prettier
 brew install nvm
 brew install serverless
+# pdftotext etc.
+brew install poppler
 
 # Cloud related
 brew install tflint
@@ -123,6 +125,7 @@ brew install repoman
 brew install neovim
 brew install luarocks
 brew install ripgrep
+brew install pngpaste
 
 # Vault
 brew tap hashicorp/tap
