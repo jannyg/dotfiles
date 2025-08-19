@@ -106,6 +106,7 @@ brew install hyperkit
 brew install stern
 brew install fx
 brew install yh
+brew install podman
 
 #  Developer
 brew install node
