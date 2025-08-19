@@ -33,3 +33,6 @@ cp .vimrc ~/
 cp -a .vim ~/
 # Create screen config
 cp .screenrc ~/
+
+# Setup aliases
+cp .aliases ~/
