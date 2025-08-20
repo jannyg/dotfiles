@@ -98,6 +98,7 @@ brew install difftastic
 brew install anki
 brew install alt-tab
 brew install jordanbaird-ice
+brew install caffeine
 
 # Container related
 brew install docker
