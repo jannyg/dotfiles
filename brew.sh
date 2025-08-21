@@ -99,6 +99,8 @@ brew install anki
 brew install alt-tab
 brew install jordanbaird-ice
 brew install caffeine
+brew install terraform
+brew install chtf
 
 # Container related
 brew install docker
