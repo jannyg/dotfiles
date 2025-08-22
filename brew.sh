@@ -101,6 +101,7 @@ brew install jordanbaird-ice
 brew install caffeine
 brew install terraform
 brew install 1password-cli
+brew install presenterm
 
 # Container related
 brew install docker
