@@ -100,6 +100,7 @@ brew install alt-tab
 brew install jordanbaird-ice
 brew install caffeine
 brew install terraform
+brew install 1password-cli
 
 # Container related
 brew install docker
