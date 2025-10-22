@@ -84,6 +84,7 @@ brew install jq
 brew install ijq
 brew install awscli
 brew install amazon-q
+brew install claude-code
 brew install fzf
 brew install netnewswire
 brew install kap
