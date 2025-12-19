@@ -36,3 +36,6 @@ cp .screenrc ~/
 
 # Setup aliases
 cp .aliases ~/
+
+# Setup vscode ai instructions
+cp .vscode/.instructions.md ~/Library/Application\ Support/Code/User/prompts/
