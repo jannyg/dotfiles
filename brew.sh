@@ -106,6 +106,7 @@ brew install presenterm
 
 # Container related
 brew install docker
+brew install colima
 brew install minikube
 brew install hyperkit
 brew install stern
