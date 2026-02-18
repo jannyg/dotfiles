@@ -46,10 +46,11 @@ root: ~/
 
 windows:
   - jannyg:
-      layout: main-horizontal
+      layout: "e3db,276x24,0,0{260x24,0,0[260x11,0,0,1,260x12,0,12,2],15x24,261,0,3}"
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
-       - nvim
-       - ssh 404
+        -
+        -
+        - ~/pingcheck.sh
