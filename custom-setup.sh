@@ -41,4 +41,4 @@ cp .aliases ~/
 cp .vscode/.instructions.md ~/Library/Application\ Support/Code/User/prompts/
 
 # Pingcheck tool
-src="$PWD/tools/pingcheck.sh"; dest="$HOME/pingcheck.sh"; [ -e "$src" ] || { echo "❌ Missing $src"; exit 1; }; { [ -e "$dest" ] || [ -L "$dest" ]; } && { echo "ℹ️ Skipped: $dest already exists (leaving as-is)"; exit 0; }; ln -s "$src" "$dest" && echo "✅ Created: $dest -> $src"'
+src="$PWD/tools/pingcheck.sh"; dest="$HOME/pingcheck.sh"; [ -e "$src" ] || { echo "❌ Missing $src"; exit 1; }; { [ -e "$dest" ] || [ -L "$dest" ]; } && { echo "ℹ️ Skipped: $dest already exists"; } || ln -s "$src" "$dest"
