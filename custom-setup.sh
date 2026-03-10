@@ -24,7 +24,9 @@ ln -sf "$PWD/.config/ghostty/config.ghostty" ~/Library/Application\ Support/com.
 
 # Setup zsh configurations
 mkdir -p ~/.zsh
-cp -a .zsh/* ~/.zsh/
+for f in "$PWD"/.zsh/*.zsh; do
+    ln -sf "$f" ~/.zsh/"$(basename "$f")"
+done
 
 # Create cursor setup
 
