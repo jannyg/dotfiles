@@ -18,6 +18,14 @@ fi
 cp .tmux.conf ~/
 cp -a tmuxinator ~/.config/
 
+# Setup Ghostty config symlink
+mkdir -p ~/Library/Application\ Support/com.mitchellh.ghostty/
+ln -sf "$PWD/.config/ghostty/config.ghostty" ~/Library/Application\ Support/com.mitchellh.ghostty/config.ghostty
+
+# Setup zsh configurations
+mkdir -p ~/.zsh
+cp -a .zsh/* ~/.zsh/
+
 # Create cursor setup
 
 # Create gitconfig

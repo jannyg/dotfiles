@@ -167,3 +167,59 @@ alias n="nvim $1"
 # neovim - For muscle memory
 alias vi=nvim
 alias vim=nvim
+
+# Tmux shortcuts
+alias t="tmux"
+alias ta="tmux attach"
+alias tls="tmux list-sessions"
+alias tnew="tmux new-session -s"
+alias tkill="tmux kill-session -t"
+alias tinfo="tmux info"
+
+# Quick tmux session for current directory
+alias tdir='tmux new-session -s $(basename "$PWD")'
+
+# Ghostty shortcuts
+alias ghostty-config="$EDITOR ~/.config/ghostty/config.ghostty"
+
+# Terminal utilities that work well with tmux + Ghostty
+alias ll="exa -la --git" # if you have exa installed
+alias tree="tree -C"     # colored tree output
+
+# Quick git status in tmux status bar format
+gitstat() {
+    local branch=$(git branch --show-current 2>/dev/null)
+    local status=$(git status --porcelain 2>/dev/null | wc -l | tr -d ' ')
+    if [ -n "$branch" ]; then
+        echo "⎇ $branch ($status)"
+    fi
+}
+
+# Amazon Q CLI shortcuts (if available)
+if command -v q &> /dev/null; then
+    alias qchat="q chat"
+    alias qhelp="q --help"
+    alias qask="q ask"
+fi
+
+# Ghostty + tmux specific workflow helpers
+alias gconfig="$EDITOR ~/.config/ghostty/config.ghostty"
+alias tconfig="$EDITOR ~/.tmux.conf"
+alias zconfig="$EDITOR ~/.zshrc"
+
+# Enhanced terminal navigation for Ghostty
+alias cls="clear && printf '\e[3J'"  # True clear for Ghostty
+alias reset-term="printf '\033c'"     # Reset terminal state
+
+# Better process viewing in terminal
+alias psg="ps aux | grep -i"
+alias htop="htop --tree"  # If you have htop installed
+
+# Quick system info for debugging terminal issues
+sysinfo() {
+    echo "Terminal: $TERM_PROGRAM"
+    echo "Term Type: $TERM"
+    echo "Shell: $SHELL"
+    echo "Tmux Session: ${TMUX_SESSION:-'Not in tmux'}"
+    echo "Ghostty Integration: ${GHOSTTY_INTEGRATION:-'Not enabled'}"
+}

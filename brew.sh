@@ -79,6 +79,7 @@ brew install openshift-cli
 brew install adr-tools
 brew install gron
 brew install tmux
+brew install ghostty
 brew install visual-studio-code
 brew install jq
 brew install ijq
