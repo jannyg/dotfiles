@@ -5,8 +5,10 @@ font-family = "MesloLGS NF"  # Change to your preferred font
 font-size = 14
 
 # Terminal behavior
+# cursor,title only — omitting sudo avoids Ghostty injecting ZLE hooks that
+# override Kiro CLI's inline autocomplete widget (last-write-wins in zsh ZLE)
 shell-integration = zsh
-shell-integration-features = cursor,sudo,title
+shell-integration-features = cursor,title
 
 # Enhanced shell integration for oh-my-zsh
 osc-color-report-format = "8-bit"

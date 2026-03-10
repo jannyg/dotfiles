@@ -1,3 +1,6 @@
+[color]
+	ui = auto
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -166,7 +169,7 @@
 	default = upstream
 	# Make `git push` push relevant annotated tags when pushing branches out.
   followTags = true
-  
+
 
 # URL shorthands
 

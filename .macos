@@ -822,6 +822,13 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 #defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
 
 ###############################################################################
+# Menu bar                                                                    #
+###############################################################################
+
+# Show seconds in the menu bar clock
+defaults write com.apple.menuextra.clock ShowSeconds -bool true
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
