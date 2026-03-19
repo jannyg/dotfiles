@@ -32,7 +32,7 @@ done
 
 # Create gitconfig
 cp .gitconfig ~/
-cp .gitignore ~/
+ln -sf "$PWD/.gitignore" ~/.gitignore
 
 # Create curl config
 cp .curlrc ~/
