@@ -54,3 +54,6 @@ keybind = alt+right=unbind
 # Performance
 macos-non-native-fullscreen = false
 macos-titlebar-style = tabs
+
+# Allows shift + enter for new line
+keybind = shift+enter=text:\x1b\r
