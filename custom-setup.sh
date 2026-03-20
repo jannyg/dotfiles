@@ -1,22 +1,12 @@
 #!/bin/bash
 
 # Create nvim config directory
-
-directory=~/.config
-if [ -d "$directory" ]
-then
-    echo "Copying config..."
-    cp -a nvim ~/.config/
-else
-    echo "Folder does not exist. Creating..."
-    mkdir ~/.config
-    echo "Copying config..."
-    cp -a nvim ~/.config/
-fi
+mkdir -p ~/.config
+ln -sfn "$PWD/nvim" ~/.config/nvim
 
 # Create tmux/tmuxinator setup
-cp .tmux.conf ~/
-cp -a tmuxinator ~/.config/
+ln -sf "$PWD/.tmux.conf" ~/.tmux.conf
+ln -sfn "$PWD/tmuxinator" ~/.config/tmuxinator
 
 # Setup Ghostty config symlink
 mkdir -p ~/Library/Application\ Support/com.mitchellh.ghostty/
@@ -31,24 +21,25 @@ done
 # Create cursor setup
 
 # Create gitconfig
-cp .gitconfig ~/
+ln -sf "$PWD/.gitconfig" ~/.gitconfig
 ln -sf "$PWD/.gitignore" ~/.gitignore
 
 # Create curl config
-cp .curlrc ~/
+ln -sf "$PWD/.curlrc" ~/.curlrc
 # Create wget config
-cp .wgetrc ~/
+ln -sf "$PWD/.wgetrc" ~/.wgetrc
 # Create vim config
-cp .vimrc ~/
-cp -a .vim ~/
+ln -sf "$PWD/.vimrc" ~/.vimrc
+ln -sfn "$PWD/.vim" ~/.vim
 # Create screen config
-cp .screenrc ~/
+ln -sf "$PWD/.screenrc" ~/.screenrc
 
 # Setup aliases
-cp .aliases ~/
+ln -sf "$PWD/.aliases" ~/.aliases
 
 # Setup vscode ai instructions
-cp .vscode/.instructions.md ~/Library/Application\ Support/Code/User/prompts/
+mkdir -p ~/Library/Application\ Support/Code/User/prompts/
+ln -sf "$PWD/.vscode/.instructions.md" ~/Library/Application\ Support/Code/User/prompts/.instructions.md
 
 # Pingcheck tool
-src="$PWD/tools/pingcheck.sh"; dest="$HOME/pingcheck.sh"; [ -e "$src" ] || { echo "❌ Missing $src"; exit 1; }; { [ -e "$dest" ] || [ -L "$dest" ]; } && { echo "ℹ️ Skipped: $dest already exists"; } || ln -s "$src" "$dest"
+src="$PWD/tools/pingcheck.sh"; dest="$HOME/pingcheck.sh"; [ -e "$src" ] || { echo "Missing $src"; exit 1; }; { [ -e "$dest" ] || [ -L "$dest" ]; } && { echo "Skipped: $dest already exists"; } || ln -s "$src" "$dest"
