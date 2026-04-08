@@ -57,3 +57,7 @@ macos-titlebar-style = tabs
 
 # Allows shift + enter for new line
 keybind = shift+enter=text:\x1b\r
+
+# SSH Compability
+shell-integration-features = ssh-terminfo,ssh-env
+
