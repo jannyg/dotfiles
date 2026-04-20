@@ -100,7 +100,7 @@ brew install bruno
 brew install difftastic
 brew install anki
 brew install alt-tab
-brew install jordanbaird-ice
+brew install thaw
 brew install caffeine
 brew install terraform
 brew install 1password-cli
