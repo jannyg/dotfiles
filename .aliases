@@ -5,6 +5,11 @@
 alias dtail="docker logs --tail=50 --follow"
 alias dexec="docker exec --it"
 
+# Python virtualenv
+alias venv="python3 -m venv .venv && source .venv/bin/activate"   # create + activate in .venv
+alias va="source .venv/bin/activate"                              # activate existing .venv
+alias vd="deactivate"                                             # exit current venv
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
