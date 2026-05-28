@@ -3,7 +3,7 @@
 # Docker aliases
 
 alias dtail="docker logs --tail=50 --follow"
-alias dexec="docker exec --it"
+alias dexec="docker exec -it"
 
 # Python virtualenv
 alias venv="python3 -m venv .venv && source .venv/bin/activate"   # create + activate in .venv
@@ -114,7 +114,7 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # URL-encode strings
-alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+alias urlencode='python3 -c "import sys, urllib.parse; print(urllib.parse.quote_plus(sys.argv[1]))"'
 
 # Merge PDF files, preserving hyperlinks
 # Usage: `mergepdf input{1,2,3}.pdf`
@@ -158,16 +158,11 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# Change directory to active Finder window
-alias cdf='cd `osascript -e "tell application \"Finder\" to if window 1 exists then if target of window 1 as string is not \":\" then get POSIX path of (target of window 1 as alias)"`'
-
-# Use fxz for history
+# Use fzf for history
 alias history="history|fzf"
 
-# terraform
-alias tf="terraform"
 # neovim - Normal usage
-alias n="nvim $1"
+alias n="nvim"
 
 # neovim - For muscle memory
 alias vi=nvim
@@ -188,7 +183,7 @@ alias tdir='tmux new-session -s $(basename "$PWD")'
 alias ghostty-config="$EDITOR ~/.config/ghostty/config.ghostty"
 
 # Terminal utilities that work well with tmux + Ghostty
-alias ll="exa -la --git" # if you have exa installed
+alias ll="eza -la --git" # if you have eza installed
 alias tree="tree -C"     # colored tree output
 
 # Quick git status in tmux status bar format
@@ -218,7 +213,7 @@ alias reset-term="printf '\033c'"     # Reset terminal state
 
 # Better process viewing in terminal
 alias psg="ps aux | grep -i"
-alias htop="htop --tree"  # If you have htop installed
+command -v htop > /dev/null && alias htop="command htop --tree"
 
 # Quick system info for debugging terminal issues
 sysinfo() {

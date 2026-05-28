@@ -10,7 +10,8 @@ if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
     # Better history for Ghostty + tmux workflow
     export HISTSIZE=10000
     export SAVEHIST=10000
-    export HISTCONTROL=ignoredups:erasedups
+    setopt HIST_IGNORE_DUPS
+    setopt HIST_IGNORE_ALL_DUPS
 
     # Enable shared history between panes/sessions
     setopt SHARE_HISTORY

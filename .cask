@@ -15,4 +15,5 @@ installcask rectangle-pro
 installcask slack
 installcask ngrok
 installcask pycharm-ce
-installcask amphetamine
+# amphetamine is Mac App Store only, not available as a cask
+#installcask amphetamine
