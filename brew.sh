@@ -98,6 +98,7 @@ brew install act
 brew install tmuxinator
 brew install bruno
 brew install difftastic
+brew install jj
 brew install anki
 brew install alt-tab
 brew install thaw
