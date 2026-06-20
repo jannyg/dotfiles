@@ -37,7 +37,6 @@ brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
-brew install gpg2
 
 # Install more recent versions of some macOS tools.
 brew install neovim
@@ -53,7 +52,6 @@ brew install nmap
 brew install ack
 brew install git
 brew install git-lfs
-brew install worktree
 brew install lynx
 brew install p7zip
 brew install pigz
@@ -72,6 +70,7 @@ brew install wireshark
 brew install htop
 brew install asciinema
 brew install bat
+brew install eza
 brew install hyperfine
 brew install tmate
 brew install ipcalc
@@ -98,9 +97,10 @@ brew install act
 brew install tmuxinator
 brew install bruno
 brew install difftastic
+brew install jj
 brew install anki
 brew install alt-tab
-brew install jordanbaird-ice
+brew install thaw
 brew install caffeine
 brew install terraform
 brew install 1password-cli
@@ -132,7 +132,6 @@ brew install tflint
 brew install repoman
 
 # NeoVIM
-brew install neovim
 brew install luarocks
 brew install ripgrep
 brew install pngpaste

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 # Make vim the default editor.
-export EDITOR='vim';
+export EDITOR='nvim';
 
 # Prefer US English and use UTF-8
 #export LANG="en_US"
 #export LC_ALL="en_US.UTF-8"
-=======
+
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
 # Allow 32³ entries; the default is 1000.

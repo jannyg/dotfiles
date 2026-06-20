@@ -8,7 +8,7 @@ font-size = 14
 # cursor,title only — omitting sudo avoids Ghostty injecting ZLE hooks that
 # override Kiro CLI's inline autocomplete widget (last-write-wins in zsh ZLE)
 shell-integration = zsh
-shell-integration-features = cursor,title
+shell-integration-features = cursor,title,ssh-terminfo,ssh-env
 
 # Enhanced shell integration for oh-my-zsh
 osc-color-report-format = "8-bit"
@@ -58,6 +58,5 @@ macos-titlebar-style = tabs
 # Allows shift + enter for new line
 keybind = shift+enter=text:\x1b\r
 
-# SSH Compability
-shell-integration-features = ssh-terminfo,ssh-env
+# SSH Compatibility (merged into shell-integration-features above)
 

@@ -1,5 +1,3 @@
-let mapleader = " "
-
 " enable syntax highlighting
 " syntax on
 "
@@ -84,8 +82,8 @@ let mapleader = " "
 "   hi LineNr ctermfg=240 guifg=#585858
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+" colorscheme solarized  " Requires solarized plugin to be installed
+" let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
