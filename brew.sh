@@ -141,5 +141,10 @@ brew install pngpaste
 brew tap hashicorp/tap
 brew install hashicorp/tap/vault
 
+# Browsers
+brew install zen-browser
+brew install microsoft-edge
+
+
 # Remove outdated versions from the cellar.
 brew cleanup
