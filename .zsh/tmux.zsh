@@ -6,8 +6,8 @@ export ZSH_TMUX_AUTOQUIT=false
 export ZSH_TMUX_FIXTERM=true
 export ZSH_TMUX_AUTONAME_SESSION=false
 
-# Auto-start tmux — skip inside VS Code and existing tmux sessions
-if [[ -z "$TMUX" ]] && [[ "$TERM_PROGRAM" != "vscode" ]] && command -v tmux &>/dev/null; then
+# Auto-start tmux — skip inside VS Code, non-interactive shells, and existing tmux sessions
+if [[ -z "$TMUX" ]] && [[ "$TERM_PROGRAM" != "vscode" ]] && [[ -z "$VSCODE_RESOLVING_ENVIRONMENT" ]] && [[ -t 0 ]] && command -v tmux &>/dev/null; then
     if [[ "$TERM_PROGRAM" == "ghostty" ]] && command -v tmuxinator &>/dev/null; then
         # In Ghostty: offer to attach to existing work session or start fresh
         if tmux has-session -t work 2>/dev/null; then
